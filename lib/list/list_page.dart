@@ -9,7 +9,12 @@ class ListPage extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: const Text('플라워링'),
-        actions: [Icon(Icons.shopping_cart_outlined), SizedBox(width: 25)],
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.shopping_cart_outlined),
+          ),
+        ],
       ),
     );
   }
